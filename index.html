@@ -5,52 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SipnPlay</title>
-    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <nav>
-        <img src="sipnplay.png" class="logo">
+        <img src="sipnplay.png" class="logo" alt="SipnPlay Logo">
         <ul id="menu-links"> 
-            <li></li><a class="link" href="index.html">Home</a></li> 
-            <li></li><a class="link" href="services.html">Services</a></li> 
-            <li></li><a class="link" href="menu.html">Menu</a></li>
-            <li></li><a class="link" href="calendar.html">Calendar</a></li>
+            <li><a class="link" href="index.html">Home</a></li> 
+            <li><a class="link" href="services.html">Services</a></li> 
+            <li><a class="link" href="menu.html">Menu</a></li>
+            <li><a class="link" href="calendar.html">Calendar</a></li>
         </ul>
-        <button class="nav-btn">Get Started <img src="images/arrow-white.png" alt=""></button>
-
-        <img src="images/menu.png" alt="" class="menu-icon" onclick="toggleMenu()">
+        <button class="nav-btn">Get Started <img src="images/arrow-white.png" alt="Arrow Icon"></button>
+        <img src="images/menu.png" alt="Menu Icon" class="menu-icon" onclick="toggleMenu()">
     </nav>
 
     <div class="header">
         <div class="header-content">
-            <h1>SIP<br>N<br>PLAY
-            </h1>
+            <h1>SIP<br>N<br>PLAY</h1>
             <div class="btn-container">
-                <button class="btn-dark"> Make a reservation <img src="images/phone.png" alt=""></button>
-                <button class="btn-light">About us
-                    <img src="images/arrow-black.png" alt="">
-                </button>
+                <button class="btn-dark">Make a reservation <img src="images/phone.png" alt="Phone Icon"></button>
+                <button class="btn-light">About us <img src="images/arrow-black.png" alt="Arrow Icon"></button>
             </div>
-            <p class="bottomText">
-
-                HOW IT WORKS <br>
-                Come on in with your friends and family and play boardgames from our collection of over 500+ games! Just
-                $10 a person for 3 hours of gameplay. ($12 a person Friday-Sunday and Holidays) Play while enjoying
-                bubble tea, coffee, beer sandwiches or salads and have a great time! If you want to guarantee a table,
-                you can make a reservation which is $15 a person for 3 hours of gameplay.
-
-                ​
-            </p>
         </div>
-
-
-        <img src="bobapink-removebg-preview.png" alt="" class="user-img">
+        <img src="bobapink-removebg-preview.png" alt="User Image" class="user-img">
     </div>
 
-   
- 
-    <script src="main1.js"> </script>
+	<div class="how-it-works">
+        <h2>HOW IT WORKS</h2>
+        <ul>
+            <li>Come on in with your friends and family and play board games.</li>
+            <li>Play while enjoying bubble tea, coffee, beer, sandwiches, or salads and have a great time!</li>
+            <li>Collection of over 500+ games!</li>
+            <li>Just $10 a person for 3 hours of gameplay.</li>
+            <li>$12 a person on Friday, Sunday, and Holidays.</li>
+        </ul>
+        <p>If you want to guarantee a table, you can make a reservation which is $15 a person for 3 hours of gameplay.</p>
+    </div>
+
+    <script src="main1.js"></script>
 </body>
 
 </html>
