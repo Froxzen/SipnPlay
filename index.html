@@ -5,64 +5,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SipnPlay</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style1.css">
+
+  <link rel="stylesheet" crossorigin href="/assets/index-DeL-CuTi.css">
 </head>
 
 <body>
     <nav>
-        <img src="sipnplay.png" class="logo" alt="SipnPlay Logo">
+        <img src="/assets/sipnplay-xYQU4B1a.png" class="logo">
         <ul id="menu-links"> 
-            <li><a class="link" href="index.html">Home</a></li> 
-            <li><a class="link" href="services.html">Services</a></li> 
-            <li><a class="link" href="menu.html">Menu</a></li>
-            <li><a class="link" href="calendar.html">Calendar</a></li>
+            <li></li><a class="link" href="index.html">Home</a></li> 
+            <li></li><a class="link" href="services.html">Services</a></li> 
+            <li></li><a class="link" href="menu.html">Menu</a></li>
+            <li></li><a class="link" href="calendar.html">Calendar</a></li>
         </ul>
-        <button class="nav-btn">Get Started <img src="images/arrow-white.png" alt="Arrow Icon"></button>
-        <img src="images/menu.png" alt="Menu Icon" class="menu-icon" onclick="toggleMenu()">
+        <button class="nav-btn">Get Started <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAARCAYAAAA/mJfHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADtSURBVHgB5VPtDYIwEG2NA7CBbAAbABM4giMwgmxgnEA2wA1wA3QCYALcoL4mV3OeUOlvX/K4cm1f76NV6i+gpcMYk9Bw1Fo/VQC0EDrA1Mxlxe5kB0H/YRCLwRbszDpkfP/2I0ytB5iCiUcwKWitTT8nzma2GhAuwUlEtlOhwKYTE3iPQ0ViVr+Jokvpvw8Rylhavbsy5Ldo1wodWVotNcLNleS/yH0bIRKBDYYVuSp0uBD3yQkPyhNNQum4+uQL6xpas18S4m3vfC2ntM3sYaygru2R8oBF/3WgfQEP8AZeUZuz+o3afrB2lBMv4kcyWflgjigAAAAOZVhJZk1NACoAAAAIAAAAAAAAANJTkwAAAABJRU5ErkJggg==" alt=""></button>
+
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAAA6CAYAAAATBx+NAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEUSURBVHgB7dnBbcJAEIXhB7nk6BK2gzgdUEI6SzpIOoiowEkFSQemA9wBjNkFAcKSQTB48f9JD8EJa7SatWakKFgqy9KyIvpONdEkffmzFMK+xvL6ZB+fllI49mwp2xO0Ero0U8WjhNOKtkD/Qpc5TbrbpklvfwTFqy2nq/hWaV91qlQTAAAAAAAAAPcULO8a/oJytzj0FCy1hl2Y49FrkKMP5VOcbaqp/LwoP6VngbJcK3kWaK78/MpRe4Jq5dN/3Ju00h9+adjXPItDAAAAAAAA4FpmitO2oU4Dr5WLFodvku794N6j1zBRf7XGN6f96VugoFigsWk892I5KvoWaJEyNmctO0fZpHWmmR7/mj9YHK4BqNdboC7IvAUAAAAOZVhJZk1NACoAAAAIAAAAAAAAANJTkwAAAABJRU5ErkJggg==" alt="" class="menu-icon" onclick="toggleMenu()">
     </nav>
 
     <div class="header">
         <div class="header-content">
-            <h1>SIP<br>N<br>PLAY</h1>
+            <h1>SIP<br>N<br>PLAY
+            </h1>
             <div class="btn-container">
-                <button class="btn-dark">Make a reservation <img src="images/phone.png" alt="Phone Icon"></button>
-                <button class="btn-light">About us <img src="images/arrow-black.png" alt="Arrow Icon"></button>
+                <button class="btn-dark"> Make a reservation <img src="data:image/png;base64,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" alt=""></button>
+
             </div>
+            <p class="bottomText">
+
+                HOW IT WORKS <br>
+                Come on in with your friends and family and play boardgames from our collection of over 500+ games! Just
+                $10 a person for 3 hours of gameplay. ($12 a person Friday-Sunday and Holidays) Play while enjoying
+                bubble tea, coffee, beer sandwiches or salads and have a great time! If you want to guarantee a table,
+                you can make a reservation which is $15 a person for 3 hours of gameplay.
+
+                ​
+            </p>
         </div>
-        <img src="bobapink-removebg-preview.png" alt="User Image" class="user-img">
+
+
+        <img src="bobapink-removebg-preview.png" alt="" class="user-img">
     </div>
 
-    <div class="how-it-works">
-        <h2>HOW IT WORKS</h2>
-        <ul>
-            <li>Come on in with your friends and family and play board games.</li>
-            <li>Play while enjoying bubble tea, coffee, beer, sandwiches, or salads and have a great time!</li>
-            <li>Collection of over 500+ games!</li>
-            <li>Just $10 a person for 3 hours of gameplay.</li>
-            <li>$12 a person on Friday, Sunday, and Holidays.</li>
-        </ul>
-        <p>If you want to guarantee a table, you can make a reservation which is $15 a person for 3 hours of gameplay.</p>
-    </div>
-
-    <footer>
-        <div class="oursocials">
-            <h2>Our Socials!</h2>
-            <div class="social-container">
-                <a href="https://www.instagram.com/sipnplaynyc/" target="_blank">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-                <a href="https://partiful.com/e/z2Fhg8xPjo41brigSDsz" target="_blank">
-                    <i class="fa-solid fa-calendar-days"></i>
-                </a>
-            </div>
-        </div>
-    </footer>
-
-    <script src="main1.js"></script>
+   
+ 
+    <script src="main1.js"> </script>
 </body>
 
 </html>
-
