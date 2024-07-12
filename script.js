@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const events = {
-      '2024-07-15': [
+      '2024-07-13': [
         { time: '10:00 AM', description: 'Drink Boba and Chill' },
       ], // this is how you can insert events into the calendar
       '2024-07-20': [
