@@ -263,3 +263,60 @@ nav .logo {
     line-height: 1.6;
     margin-top: 20px;
 }
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer-container i {
+    width: 40px;
+    height: 40px;
+}
+
+.social-container i {
+    font-size: 25px;
+}
+
+i {
+    color: white;
+}
+
+.oursocials {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.oursocials h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.social-container {
+    display: flex;
+    justify-content: center;
+}
+
+.social-container a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-container img {
+    width: 40px;
+    height: 40px;
+}
