@@ -1,7 +1,14 @@
 
-/* Importing fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Playwrite+HR:wght@100..400&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+ 
+body { 
+
+background:#85a66a;
+
+}
 
 
 .menu-header {
@@ -25,13 +32,14 @@
 
 .menu-border {
   text-align: left;
-  border: 4px dotted rgb(10, 0, 124);
+  border: 4px dotted rgb(0, 0, 0);
   padding: 10px;
   display: inline-block;
   font-size: 20px;
   justify-content: center;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
+  border-radius: 10px;
 }
 
 .coffee-section {
@@ -86,7 +94,8 @@
   box-sizing: border-box;
   border: 3px solid black;
   flex: 1 1 calc(25% - 25px);
-  text-align: center;
+  text-align: center; 
+  background:white;
 }
 
 .price {
@@ -246,9 +255,9 @@ nav ul li {
   cursor: pointer;
 }
 
-.logo {
-  width: 30px; 
-  height: 30px;
+.logo { 
+  width: 300px; 
+  height: 300px;
   border-radius: 100%;
   padding: 0px;
 } 
